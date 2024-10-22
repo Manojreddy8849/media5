@@ -1,0 +1,26 @@
+*body{
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+span{
+	display : inline-block;
+	width : 180px;
+	height : 200px;
+	border : 2px solid;
+	margin: 5px;
+}
+
+@media screen and (width < 600px)
+{
+	span {
+		display : block;
+	}
+}
+@media screen and (width > 600px)
+{
+	span {
+		display : inline-block;
+	}
+}
